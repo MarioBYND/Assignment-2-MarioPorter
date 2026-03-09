@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #6B7280;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #111827;
+}
+
+
+
+section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+.step-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2E8B62;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #6B7280;
+    margin-bottom: 30px;
+}
+
+
+
+.agreement-box {
+    background-color: #EAF5EF;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+
+.checkbox-label {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.checkbox-label strong {
+    color: #1C3D2E;
+}
+
+.checkbox-container {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    height: 60px;
+}
+
+.agreeCheckbox {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    accent-color: #2E8B62;
+    position: absolute;
+    left: calc(50% - 20px);
+}
+
+.checkbox-container:hover .agreeCheckbox {
+    left: 100px;
+}
+
+
+
+.continue-button {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #E5E7EB;
+    color: #6B7280;
+    cursor: not-allowed;
+    transition: background-color 0.2s;
+}
+
+.continue-button.active {
+    background-color: #3DAF7A;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.continue-button.active:hover {
+    background-color: #2E8B62;
+    animation: pulse 1s ease;
+}
+
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #6B7280;
+    border-top: 1px solid #E5E7EB;
+    text-align: center;
+}
