@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,9 @@ body {
     font-family: 'DM Sans', sans-serif;
     background-color: #ffffff;
     color: #111827;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -19,6 +23,14 @@ header {
     padding-right: 40px;
     border-bottom: 1px solid #E5E7EB;
 }
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 nav ul {
     list-style: none;

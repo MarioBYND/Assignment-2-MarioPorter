@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,9 @@ body {
     background-color: #1C3D2E;
     color: #ffffff;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -20,6 +24,14 @@ header {
     padding-right: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 nav ul {
     list-style: none;
